@@ -2,6 +2,7 @@ import { useState, Fragment } from "react";
 import { AsyncTypeahead } from "react-bootstrap-typeahead";
 import 'react-bootstrap-typeahead/css/Typeahead.css';
 import { useHistory } from "react-router-dom";
+import "./drug-search.css";
 
 const searchUrl = `http://olive-drugs-test-express-api.us-east-1.elasticbeanstalk.com/api`;
 
@@ -31,7 +32,6 @@ const DrugSearch = () => {
     const onChange = (selected) => {
         if (!selected || selected.length <= 0) return;
         const ndc = selected[0].NDC;
-        console.log(ndc);
         history.push(`/drugEquivalents/${ndc}`);
     }
 
@@ -48,10 +48,10 @@ const DrugSearch = () => {
             options={options}
             placeholder="Search for a drug..."
             onChange={onChange}
+            className="drug-search"
             renderMenuItemChildren={(option, props) => (
                 <Fragment>
                     <span>{option.DrugName}</span>
-                    <span>{option.NDC}</span>
                 </Fragment>
             )}
         />

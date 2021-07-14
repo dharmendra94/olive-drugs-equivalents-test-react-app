@@ -1,0 +1,15 @@
+.equivalent-costs-container {
+    padding: 10px;
+}
+
+.table-container {
+    overflow: auto;
+    max-height: 500px;
+    margin: 20px 0;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background: white !important;
+}
