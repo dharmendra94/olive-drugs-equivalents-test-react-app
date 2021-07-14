@@ -1,0 +1,114 @@
+{
+    "NADACData": [
+        {
+            "Id": 1,
+            "DrugName": "Gabapentin 200 mg",
+            "NADAC": 1.2,
+            "NDC": "111111234572"
+        },
+        {
+            "Id": 1,
+            "DrugName": "Gabapentin 300 mg",
+            "NADAC": 1.2,
+            "NDC": "111111234573"
+        },
+        {
+            "Id": 1,
+            "DrugName": "Gabapentin 400 mg",
+            "NADAC": 1.2,
+            "NDC": "111111234574"
+        },
+        {
+            "Id": 1,
+            "DrugName": "Gabapentin 500 mg",
+            "NADAC": 1.2,
+            "NDC": "111111234575"
+        },
+        {
+            "Id": 1,
+            "DrugName": "Gabapentin 600 mg",
+            "NADAC": 1.2,
+            "NDC": "111111234576"
+        },
+        {
+            "Id": 1,
+            "DrugName": "Gabapentin 700 mg",
+            "NADAC": 1.2,
+            "NDC": "111111234577"
+        },
+        {
+            "Id": 1,
+            "DrugName": "Gabapentin 800 mg",
+            "NADAC": 1.2,
+            "NDC": "111111234578"
+        },
+        {
+            "Id": 1,
+            "DrugName": "Gabapentin 900 mg",
+            "NADAC": 1.2,
+            "NDC": "111111234579"
+        },
+        {
+            "Id": 1,
+            "DrugName": "Neurontin 200 mg",
+            "NADAC": 1.2,
+            "NDC": "111111234570"
+        }
+    ],
+    "DrugsData": [
+        {
+            "Id": 1,
+            "NDC": "111111234572",
+            "DrugName": "Gabapentin 200 mg",
+            "DrugEquivNum": "100"
+        },
+        {
+            "Id": 2,
+            "NDC": "111111234573",
+            "DrugName": "Gabapentin 300 mg",
+            "DrugEquivNum": "100"
+        },
+        {
+            "Id": 3,
+            "NDC": "111111234574",
+            "DrugName": "Gabapentin 400 mg",
+            "DrugEquivNum": "100"
+        },
+        {
+            "Id": 4,
+            "NDC": "111111234575",
+            "DrugName": "Gabapentin 500 mg",
+            "DrugEquivNum": "100"
+        },
+        {
+            "Id": 5,
+            "NDC": "111111234576",
+            "DrugName": "Gabapentin 600 mg",
+            "DrugEquivNum": "100"
+        },
+        {
+            "Id": 6,
+            "NDC": "111111234577",
+            "DrugName": "Gabapentin 70 mg",
+            "DrugEquivNum": "100"
+        },
+        {
+            "Id": 7,
+            "NDC": "111111234578",
+            "DrugName": "Gabapentin 800 mg",
+            "DrugEquivNum": "100"
+        },
+        {
+            "Id": 8,
+            "NDC": "111111234579",
+            "DrugName": "Gabapentin 900 mg",
+            "DrugEquivNum": "100"
+        },
+        {
+            "Id": 9,
+            "NDC": "111111234570",
+            "DrugName": "Neurontin 200 mg",
+            "DrugEquivNum": "100"
+        }
+    ]
+}
